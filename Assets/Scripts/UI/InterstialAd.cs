@@ -35,6 +35,7 @@ public class InterstialAd : MonoBehaviour
         if(_shotsCount == 14)
         {
             LoadInterstitialAd();
+            _shotsCount = 0;
         }
     }
 }
